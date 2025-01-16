@@ -47,6 +47,7 @@ import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
+import nodeJS from '/public/svg/skills/nodeJS.svg';
 import opencv from '/public/svg/skills/opencv.svg';
 import photoshop from '/public/svg/skills/photoshop.svg';
 import php from '/public/svg/skills/php.svg';
@@ -99,6 +100,8 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'next js':
       return nextJS;
+    case 'node js':
+      return nodeJS;
     case 'nuxt js':
       return nuxtJS;
     case 'react':

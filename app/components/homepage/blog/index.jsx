@@ -3,8 +3,54 @@ import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
 
-function Blog({ blogs }) {
+// Define static blog data
+const staticBlogs = [
+  {
+    id: 1,
+    title: 'Google Cloud',
+    cover_image: '/image/GC.png',
+    url: 'https://drive.google.com/file/d/1ihusFpT1ac14yca9HE1rx83ig144pPBi/view?usp=share_link', // Example URL for the first blog
+    summary: 'Google cloud career readlines cloud digital Leader track',
+  },
+  {
+    id: 2,
+    title: 'Cisco',
+    cover_image: '/image/CI.png',
+    url: 'https://drive.google.com/file/d/1uRI1AnIIFAs3QGtbx7R20BJd2oMxVRDa/view?usp=share_link', // Example URL for the second blog
+    summary: 'Cisco Training Course on Networking Essentials',
+  },
+  {
+    id: 3,
+    title: 'Infosys Springboard Certificates',
+    cover_image: '/image/IS.png',
+    url: 'https://drive.google.com/file/d/1x4FbFS6RkLOO2Br_3usASaa59uazmLb-/view?usp=share_link', // Example URL for the second blog
+    summary: 'Certificates that are gained as an acknoledgement for my skills',
+  },
+  {
+    id: 4,
+    title: 'Guvi',
+    cover_image: '/image/Gu.png',
+    url: 'https://drive.google.com/file/d/1Y7MJ6zywQHPyWmbFTAJsHA6_7FRj8fat/view?usp=share_link', // Example URL for the second blog
+    summary: 'Certificates that are gained as an acknoledgement for my skills',
+  },
+  {
+    id: 5,
+    title: 'Meta',
+    cover_image: '/image/Meta.png',
+    url: 'https://drive.google.com/file/d/1-Au-W258v3gNYn4FAdg0odQ2VY1ELvJl/view?usp=share_link', // Example URL for the second blog
+    summary: 'Certificates that are gained as an acknoledgement for my skills',
+  },
+  {
+    id: 6,
+    title: 'LinkedIn',
+    cover_image: '/image/Lin.png',
+    url: 'https://drive.google.com/file/d/10Us5dem_hxCuMq85PKDhsN_mSBGkLNgW/view?usp=share_link', // Example URL for the second blog
+    summary: 'Certificates that are gained as an acknoledgement for my skills',
+  },
+  // Add more blog objects as needed
+];
 
+function Blog() {
   return (
     <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
@@ -18,8 +64,8 @@ function Blog({ blogs }) {
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Blogs
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md hover:text-pink-600">
+            Certificates
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -27,9 +73,8 @@ function Blog({ blogs }) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
         {
-          blogs.slice(0, 6).map((blog, i) => (
-            blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
+          staticBlogs.map((blog) => (
+            <BlogCard key={blog.id} blog={blog} />
           ))
         }
       </div>
@@ -46,6 +91,6 @@ function Blog({ blogs }) {
       </div>
     </div>
   );
-};
+}
 
 export default Blog;
