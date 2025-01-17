@@ -14,5 +14,5 @@ export const personalData = {
   leetcode: "https://leetcode.com/u/Srikanth_Sridhar/",
   skillrack: "http://www.skillrack.com/faces/resume.xhtml?id=400920&key=e8ffdb981e1bbc7549eabcf5708577d12edf3a17",
   devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1IlBb8PfiiPIkVhCa09dd7lELHTtv6gcp/view?usp=share_link"
+  resume: "https://drive.google.com/file/d/16YHc3D_5HN1fyY4kKRXQoIb8jYhXuCPf/view?usp=sharing"
 }
