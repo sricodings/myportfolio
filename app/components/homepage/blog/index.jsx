@@ -9,42 +9,42 @@ const staticBlogs = [
     id: 1,
     title: 'Google Cloud',
     cover_image: '/image/GC.png',
-    url: 'https://drive.google.com/file/d/1ihusFpT1ac14yca9HE1rx83ig144pPBi/view?usp=share_link', // Example URL for the first blog
+    url: 'https://drive.google.com/file/d/148YOsN4Q7kDKmeshA73jaOeKdcMVCL2m/view', // Example URL for the first blog
     summary: 'Google cloud career readlines cloud digital Leader track',
   },
   {
     id: 2,
     title: 'Cisco',
     cover_image: '/image/CI.png',
-    url: 'https://drive.google.com/file/d/1uRI1AnIIFAs3QGtbx7R20BJd2oMxVRDa/view?usp=share_link', // Example URL for the second blog
+    url: 'https://drive.google.com/file/d/16-BCC-kzFjPi2MyoG_Z1xWIy0C_EP7oR/view', // Example URL for the second blog
     summary: 'Cisco Training Course on Networking Essentials',
   },
   {
     id: 3,
     title: 'Infosys Springboard Certificates',
     cover_image: '/image/IS.png',
-    url: 'https://drive.google.com/file/d/1x4FbFS6RkLOO2Br_3usASaa59uazmLb-/view?usp=share_link', // Example URL for the second blog
+    url: 'https://drive.google.com/file/d/16BdDVNpi6uOG0gF5xlg3sgf12WrbgxXH/view', // Example URL for the second blog
     summary: 'Certificates that are gained as an acknoledgement for my skills',
   },
   {
     id: 4,
     title: 'Guvi',
     cover_image: '/image/Gu.png',
-    url: 'https://drive.google.com/file/d/1Y7MJ6zywQHPyWmbFTAJsHA6_7FRj8fat/view?usp=share_link', // Example URL for the second blog
+    url: 'https://drive.google.com/file/d/1LIWJphQj2yCiIMi2t69C54OfBy3Q-gUQ/view', // Example URL for the second blog
     summary: 'Certificates that are gained as an acknoledgement for my skills',
   },
   {
     id: 5,
     title: 'Meta',
     cover_image: '/image/Meta.png',
-    url: 'https://drive.google.com/file/d/1-Au-W258v3gNYn4FAdg0odQ2VY1ELvJl/view?usp=share_link', // Example URL for the second blog
+    url: 'https://drive.google.com/file/d/1l5MbNKr09IVFb6GgoPYmRmu30O2pfJ7F/view', // Example URL for the second blog
     summary: 'Certificates that are gained as an acknoledgement for my skills',
   },
   {
     id: 6,
     title: 'LinkedIn',
     cover_image: '/image/Lin.png',
-    url: 'https://drive.google.com/file/d/10Us5dem_hxCuMq85PKDhsN_mSBGkLNgW/view?usp=share_link', // Example URL for the second blog
+    url: 'https://drive.google.com/file/d/1nQQ2rPlHUM3cAb40dmOR2aT29CfrhV-B/view', // Example URL for the second blog
     summary: 'Certificates that are gained as an acknoledgement for my skills',
   },
   // Add more blog objects as needed
