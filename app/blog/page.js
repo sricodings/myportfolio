@@ -10,8 +10,7 @@ const staticBlogs = [
     cover_image: '/image/GC.png',
     url: 'https://drive.google.com/file/d/148YOsN4Q7kDKmeshA73jaOeKdcMVCL2m/view?usp=sharing', // Example URL for the first blog
     summary: 'Google cloud career readlines cloud digital Leader track',
-  },
-  {
+  },{
     id: 2,
     title: 'Cisco',
     cover_image: '/image/CI.png',
