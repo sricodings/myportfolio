@@ -21,7 +21,7 @@ const staticBlogs = [
   },
   {
     id: 3,
-    title: 'Infosys Springboard Certificates',
+    title: 'Infosys Springboard',
     cover_image: '/image/IS.png',
     url: 'https://drive.google.com/file/d/16BdDVNpi6uOG0gF5xlg3sgf12WrbgxXH/view', // Example URL for the second blog
     summary: 'Certificates that are gained as an acknoledgement for my skills',
