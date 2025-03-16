@@ -22,14 +22,14 @@ const staticBlogs = [
     title: 'Infosys Springboard',
     cover_image: '/image/IS.png',
     url: 'https://drive.google.com/file/d/16BdDVNpi6uOG0gF5xlg3sgf12WrbgxXH/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills',
+    summary: 'Certificates that are gained as an acknowledgement for my skills',
   },
   {
     id: 4,
     title: 'Guvi',
     cover_image: '/image/Gu.png',
     url: 'https://drive.google.com/file/d/1LIWJphQj2yCiIMi2t69C54OfBy3Q-gUQ/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills',
+    summary: 'Certificates that are gained as an acknowledgement for my skills',
   },
   {
     id: 5,
@@ -43,14 +43,14 @@ const staticBlogs = [
     title: 'LinkedIn',
     cover_image: '/image/Lin.png',
     url: 'https://drive.google.com/file/d/1nQQ2rPlHUM3cAb40dmOR2aT29CfrhV-B/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills',
+    summary: 'Certificates that are gained as an acknowledgement for my skills',
   },
   {
     id: 7,
     title: 'Great Learning',
     cover_image: '/image/GL.png',
     url: 'https://drive.google.com/file/d/1dC5hN6GrQimKhP7HmL32-H-Die2MuJ2E/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills',
+    summary: 'Certificates that are gained as an acknowledgement for my skills',
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const staticBlogs = [
     title: 'Coding in SkillRack',
     cover_image: '/image/SR.png',
     url: 'https://drive.google.com/file/d/1jO1mPdyP4F-jH6xnNMMEGqz1m7rUQLxS/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills in Coding',
+    summary: 'Certificates that are gained as an acknowledgement for my skills in Coding',
   },
   {
     id: 10,
@@ -78,7 +78,7 @@ const staticBlogs = [
     title: 'Forage',
     cover_image: '/image/forage.jpeg',
     url: 'https://drive.google.com/file/d/1oCm-KY3TqzbzhyEktK7oeBfB8NBmjON3/view?usp=sharing', // Example URL for the second blog
-    summary: 'Certificates that are gained as an acknoledgement for my skills from MNC Companies',
+    summary: 'Certificates that are gained as an acknowledgement for my skills from MNC Companies',
   },
   {
     id: 12,
