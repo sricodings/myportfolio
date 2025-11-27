@@ -11,7 +11,7 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/srikanth-sridhar-a43574242/',
   twitter: 'https://x.com/srisrikanthtvs',
   stackOverflow: 'https://stackoverflow.com/users/22793225/srikanth',
-  leetcode: "https://leetcode.com/u/Srikanth_Sridhar/",
+  leetcode: "https://leetcode.com/u/srisrikanthtvs/",
   skillrack: "http://www.skillrack.com/faces/resume.xhtml?id=400920&key=e8ffdb981e1bbc7549eabcf5708577d12edf3a17",
   devUsername: "said7388",
   resume: "https://drive.google.com/file/d/1ZZ3eYp-1BDP1aOPQTDhdak1wcV-cQkwS/view?usp=sharing"
